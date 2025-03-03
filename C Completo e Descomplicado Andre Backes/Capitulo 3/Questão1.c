@@ -10,9 +10,9 @@ int main(){
 
     num = (ant = num -1, sucs = num +1);
 
-    printf("Antecessor: %d\n", ant--);
+    printf("Antecessor: %d\n", ant);
 
-    printf("Sucessor: %d", sucs++);
+    printf("Sucessor: %d", sucs);
 
     return 0;
 }
