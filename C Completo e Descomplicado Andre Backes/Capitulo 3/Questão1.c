@@ -5,14 +5,12 @@
 
 int main(){
 
-    int num, ant, sucs;
+    int num;
     scanf("%d", &num);
 
-    num = (ant = num -1, sucs = num +1);
+    printf("Antecessor: %d\n", num - 1);
 
-    printf("Antecessor: %d\n", ant);
-
-    printf("Sucessor: %d", sucs);
+    printf("Sucessor: %d", num + 1);
 
     return 0;
 }
