@@ -9,8 +9,13 @@
 
 
 int main(){
+    float M, K;
 
-    
+    scanf("%f %f", &M, &K);
+
+    M = K/3.6;
+
+    printf("%.2f", M);
 
     return 0;
 }
