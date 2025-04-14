@@ -4,7 +4,7 @@
 
  • Homens: (72,7 * h) – 58
  • Mulheres: (62,1 * h) – 44,7 */
-
+#include <stdio.h>
 
  int main(){
 
