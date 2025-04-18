@@ -14,7 +14,6 @@ int main(){
         if(i == 10) media = soma/i; 
         i++;
     }
-    printf("soma: %d i: %d\n", soma, i);
 
     printf("%d", media);
 
