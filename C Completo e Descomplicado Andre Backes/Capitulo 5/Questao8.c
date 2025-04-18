@@ -15,6 +15,8 @@ int main(){
         i++;
     }
 
+     printf("soma: %d i: %d\n", soma, i); // nao necessario printar
+    
     printf("%d", media);
 
     return 0;
