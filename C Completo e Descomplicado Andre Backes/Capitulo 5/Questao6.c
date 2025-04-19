@@ -9,6 +9,7 @@ int main(){
     int i = 10;
     while(i != -1){
         printf("%d \n", i);
+        if(i == 0) printf("FIM");
         i--;        
     }
 
