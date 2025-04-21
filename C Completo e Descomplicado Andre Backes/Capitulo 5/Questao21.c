@@ -43,3 +43,24 @@
 
     return 0;
  }
+
+
+// Codigo GPT como referencia
+
+/*for(int i = 0; i < N; i++){
+    scanf("%d", &num);
+    
+    if(i == 0){
+        maior = menor = maiorAnt = num;
+        qtdMaiorLido = 1;
+    } else {
+        if(num > maior){
+            maior = num;
+            qtdMaiorLido = 1;
+        } else if(num == maior){
+            qtdMaiorLido++;
+        }
+
+        if(num < menor) menor = num;
+    }
+} */
