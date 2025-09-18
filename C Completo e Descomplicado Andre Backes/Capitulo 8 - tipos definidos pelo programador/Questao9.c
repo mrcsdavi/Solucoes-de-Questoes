@@ -25,7 +25,7 @@ int main(){
         printf("Digite a idade do %d° atleta: ", i+1);
         scanf(" %d", &a[i].idade);
         printf("Digite a altura do %d° atleta: ", i+1);
-        scanf( "%f", &a[i].altura);
+        scanf(" %f", &a[i].altura);
     }
 
     int maiorAtleta = 0;
