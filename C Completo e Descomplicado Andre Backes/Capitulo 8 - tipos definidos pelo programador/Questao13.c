@@ -26,6 +26,9 @@ enum meses{ Janeiro = 1, Fevereiro, Marco, Abril, Maio, Junho, Julho, Agosto, Se
         case Outubro: printf("Outubro, possui 31 dias"); break;
         case Novembro: printf("Novembro, possui 30 dias"); break;
         case Dezembro: printf("Dezembro, possui 31 dias"); break;
+        default:
+        printf("Mes invalido");
+        break;
     }
 
     return 0;
