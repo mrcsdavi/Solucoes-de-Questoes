@@ -39,8 +39,11 @@ int main(){
     printf("Escolha o tipo da operacao (+ ou - ou / ou *): ");
     setbuf(stdin,NULL);
     scanf("%c", &c);
-    
-    printf("O calculo entre os dois numeros usando a operacao %c foi de %.2f", c, operacao(num, c));
+
+    if(c == '+' || c == '-' || c == '*' || c == '/')
+        printf("O calculo entre os dois numeros usando a operacao %c foi de %.2f", c, operacao(num, c));
+    else
+        printf("Simbolo de operacao errado!");
 
     return 0;
 }
