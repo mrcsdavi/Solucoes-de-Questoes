@@ -10,17 +10,18 @@ struct pessoa{
 
 typedef struct pessoa p;
 
-float Calc_IMC(float peso, float altura){
-    return peso/(altura*altura);
+float Calc_IMC(p pessoa){
+    return pessoa.peso/(pessoa.altura*pessoa.altura);
 }
 
 int main(){
-    p p1;
+    float peso, altura;
 
     printf("Digite o seu peso e a sua altura: ");
-    scanf("%f %f", &p1.peso, &p1.altura);
+    scanf("%f %f", &peso, &altura);
+    p pes = {peso, altura};
     
-    printf("Calculo do IMC eh: %.2f", Calc_IMC(p1.peso, p1.altura));
+    printf("Calculo do IMC eh: %.2f", Calc_IMC(pes));
 
     return 0;
 }
