@@ -5,11 +5,12 @@
 
 int main(){
     float m[3][3];
+    float *p = &m[0][0];
 
-    for(int i = 0; i < 3; i++){
-        for(int j = 0; j < 3; j++)
-            printf("%p\n", &m[i][j]);
+    for(int i = 0; i < 9; i++){
+            printf("%p\n", (p+i));
     }
     
+
     return 0;
 }
